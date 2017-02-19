@@ -8,7 +8,7 @@ import xs.design.observer.DemoListener;
  */
 public class DemoListenerImpl implements DemoListener {
     public void handleEvent(DemoEvent de) {
-        System.out.println("Inside listener1...");
+        System.out.println("Inside listenerImpl...");
         de.say();//回调
     }
 }

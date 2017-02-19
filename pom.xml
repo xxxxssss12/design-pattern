@@ -13,6 +13,8 @@
         <module>singleton</module>
         <!-- 观察者模式（事件监听） -->
         <module>observer</module>
+        <!-- 工厂模式 -->
+        <module>factory</module>
     </modules>
 
     <properties>

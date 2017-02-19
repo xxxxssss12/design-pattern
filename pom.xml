@@ -15,7 +15,12 @@
         <module>observer</module>
         <!-- 工厂模式 -->
         <module>factory</module>
+        <!-- 抽象工厂模式 -->
         <module>abstract-factory</module>
+        <!-- 建造模式 -->
+        <module>builder</module>
+        <!-- 原型模式 -->
+        <module>prototype</module>
     </modules>
 
     <properties>

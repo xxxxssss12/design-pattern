@@ -1,15 +1,18 @@
-package xs.design.factory;
+package xs.design.abstract_factory;
 
-import xs.design.factory.impl.Circle;
-import xs.design.factory.impl.Rectangle;
-import xs.design.factory.impl.Triangle;
+import xs.design.abstract_factory.impl.Circle;
+import xs.design.abstract_factory.impl.Rectangle;
+import xs.design.abstract_factory.impl.Triangle;
 
 /**
  * Created by hasee on 2017/2/19.
  */
-public class ShapeFactory {
+public class ShapeFactory extends AbstractFactory {
+    Color getColor(String color) {
+        return null;
+    }
 
-    public Shape getShape(Integer sideNum) {
+    Shape getShape(Integer sideNum) {
         if(sideNum == null){
             return null;
         }

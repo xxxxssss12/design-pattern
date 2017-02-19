@@ -1,4 +1,4 @@
-package xs.design.factory;
+package xs.design.abstract_factory;
 
 /**
  * 多边形接口

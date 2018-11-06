@@ -25,6 +25,10 @@
         <module>adapter</module>
         <!-- 桥接模式 -->
         <module>bridge</module>
+        <!-- 组合模式 -->
+        <module>composite</module>
+        <!-- 策略模式 -->
+        <module>strategy</module>
     </modules>
 
     <properties>

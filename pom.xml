@@ -29,6 +29,10 @@
         <module>composite</module>
         <!-- 策略模式 -->
         <module>strategy</module>
+        <!-- 过滤器模式 -->
+        <module>filter</module>
+        <!-- 代理模式 -->
+        <module>proxy</module>
     </modules>
 
     <properties>
